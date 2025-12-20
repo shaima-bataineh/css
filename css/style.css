@@ -10,7 +10,7 @@
 .c1 {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #333;
+  color: #4B9DA9;
   padding: 15px;
     border: 2px solid #aaa;
     margin: 20px; }
@@ -19,25 +19,18 @@
     font-family: 'Roboto', sans-serif; 
     font-size: 16px;
     line-height: 1.6;
-    color: #333;
+    color: #4B9DA9;
 
     padding: 15px;
     border: 2px solid #aaa;
     margin: 20px;
 }
- .c3 { display: inline-block;
-    width: 100px;
-
-    padding: 10px;
-    border: 2px solid #555;
-    margin: 20px; 
-     }
 
 .c4 {
     display: inline;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    color: #e74c3c;
+    color: #896C6C;
 }
 
 
