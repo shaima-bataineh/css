@@ -1,4 +1,5 @@
 .title {
+  display:inline-block
   font-family: 'Roboto', sans-serif;
   color: #2c3e50;
   font-size: 32px;
