@@ -36,5 +36,25 @@ img {
   background-color: #540863;
 }
 
+.form1{
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);}
+
+.form1 label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;}
+
+@media (max-width: 600px) {
+  .form1 {
+    margin: 20px;
+    padding: 20px;
+  }
+}
+
 
 
