@@ -50,6 +50,9 @@ img {
   margin-bottom: 5px;
   font-weight: 500;
 }
+.box:hover {
+  transform: scale(1.05);
+}
 
 .box {
   width: 300px;
@@ -78,10 +81,5 @@ img {
     background-color: tomato;
     transform: rotate(5deg);
   }
-}
-
-
-.box:hover {
-  transform: scale(1.05);
 }
 
