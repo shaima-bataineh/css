@@ -50,11 +50,11 @@ img {
   font-weight: 500;}
 
 body {
-  background-color: lightblue; /* Desktop default */
+  background-color: lightblue; 
 }
 
 @media (max-width: 768px) {
   body {
-    background-color: lightcoral; /* Mobile */
+    background-color: lightcoral;
   }
 }
