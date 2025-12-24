@@ -50,36 +50,36 @@ img {
   margin-bottom: 5px;
   font-weight: 500;
 }
-.box:hover {
-  transform: scale(1.05);
-}
+
 
 .box {
-  width: 300px;
-  height: 300px;
-  background-color: steelblue;
-  margin: 40px;
-  animation: fadeInScale 1s ease;
-  transition: all 0.4s ease;
-}
-@keyframes fadeInScale {
-  from {
-    opacity: 0;
-    transform: scale(0.7);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+ width: 200px;
+  height: 200px;
+  background-color: #3498db; 
+  opacity: 1;
+  transition: all 0.5s ease; 
 }
 
+.box:hover,
+.box:focus{
+  transform: scale(1.1); 
+  opacity: 0.7;          
+}
 
-@media (max-width: 768px) {
-  .box {
-    width: 150px;
-    height: 150px;
-    background-color: tomato;
-    transform: rotate(5deg);
+@media (max-width: 600px) {
+  .animated-box {
+    background-color: #e74c3c;
   }
 }
 
+@media (min-width: 601px) and (max-width: 1024px) {
+  .animated-box {
+    background-color: #f1c40f; 
+  }
+}
+
+@media (min-width: 1025px) {
+  .animated-box {
+    background-color: #3498db; 
+  }
+}
